@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  ContactiMessage
 //
-//  Created by PAC on 12/6/17.
-//  Copyright © 2017 PAC. All rights reserved.
+//  Created by John Nik on 12/6/17.
+//  Copyright © 2017 johnik703. All rights reserved.
 //
 
 import UIKit

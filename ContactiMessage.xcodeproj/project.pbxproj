@@ -12,7 +12,39 @@
 		0736E5EF1FD827A6003899B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0736E5ED1FD827A6003899B5 /* Main.storyboard */; };
 		0736E5F11FD827A6003899B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0736E5F01FD827A6003899B5 /* Assets.xcassets */; };
 		0736E5F41FD827A6003899B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0736E5F21FD827A6003899B5 /* LaunchScreen.storyboard */; };
+		0736E5FC1FD82810003899B5 /* ContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0736E5FB1FD82810003899B5 /* ContactsController.swift */; };
+		0736E5FE1FD828F8003899B5 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0736E5FD1FD828F8003899B5 /* ContactCell.swift */; };
+		0736E6001FD82AE7003899B5 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0736E5FF1FD82AE7003899B5 /* Friend.swift */; };
+		0736E60A1FD835BB003899B5 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0736E6091FD835BB003899B5 /* Messages.framework */; };
+		0736E60D1FD835BB003899B5 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0736E60C1FD835BB003899B5 /* MessagesViewController.swift */; };
+		0736E6101FD835BB003899B5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0736E60E1FD835BB003899B5 /* MainInterface.storyboard */; };
+		0736E6121FD835BB003899B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0736E6111FD835BB003899B5 /* Assets.xcassets */; };
+		0736E6161FD835BB003899B5 /* MessagesViewController.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0736E6071FD835BB003899B5 /* MessagesViewController.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0736E6141FD835BB003899B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0736E5DE1FD827A5003899B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0736E6061FD835BB003899B5;
+			remoteInfo = MessagesViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0736E61A1FD835BB003899B5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0736E6161FD835BB003899B5 /* MessagesViewController.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0736E5E61FD827A6003899B5 /* ContactiMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactiMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +54,15 @@
 		0736E5F01FD827A6003899B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0736E5F31FD827A6003899B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0736E5F51FD827A6003899B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0736E5FB1FD82810003899B5 /* ContactsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsController.swift; sourceTree = "<group>"; };
+		0736E5FD1FD828F8003899B5 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		0736E5FF1FD82AE7003899B5 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		0736E6071FD835BB003899B5 /* MessagesViewController.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesViewController.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0736E6091FD835BB003899B5 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		0736E60C1FD835BB003899B5 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		0736E60F1FD835BB003899B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		0736E6111FD835BB003899B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0736E6131FD835BB003899B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +73,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0736E6041FD835BB003899B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0736E60A1FD835BB003899B5 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -39,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				0736E5E81FD827A6003899B5 /* ContactiMessage */,
+				0736E60B1FD835BB003899B5 /* MessagesViewController */,
+				0736E6081FD835BB003899B5 /* Frameworks */,
 				0736E5E71FD827A6003899B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				0736E5E61FD827A6003899B5 /* ContactiMessage.app */,
+				0736E6071FD835BB003899B5 /* MessagesViewController.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +108,34 @@
 			children = (
 				0736E5E91FD827A6003899B5 /* AppDelegate.swift */,
 				0736E5EB1FD827A6003899B5 /* ViewController.swift */,
+				0736E5FD1FD828F8003899B5 /* ContactCell.swift */,
+				0736E5FB1FD82810003899B5 /* ContactsController.swift */,
+				0736E5FF1FD82AE7003899B5 /* Friend.swift */,
 				0736E5ED1FD827A6003899B5 /* Main.storyboard */,
 				0736E5F01FD827A6003899B5 /* Assets.xcassets */,
 				0736E5F21FD827A6003899B5 /* LaunchScreen.storyboard */,
 				0736E5F51FD827A6003899B5 /* Info.plist */,
 			);
 			path = ContactiMessage;
+			sourceTree = "<group>";
+		};
+		0736E6081FD835BB003899B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0736E6091FD835BB003899B5 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0736E60B1FD835BB003899B5 /* MessagesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0736E60C1FD835BB003899B5 /* MessagesViewController.swift */,
+				0736E60E1FD835BB003899B5 /* MainInterface.storyboard */,
+				0736E6111FD835BB003899B5 /* Assets.xcassets */,
+				0736E6131FD835BB003899B5 /* Info.plist */,
+			);
+			path = MessagesViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +148,34 @@
 				0736E5E21FD827A6003899B5 /* Sources */,
 				0736E5E31FD827A6003899B5 /* Frameworks */,
 				0736E5E41FD827A6003899B5 /* Resources */,
+				0736E61A1FD835BB003899B5 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0736E6151FD835BB003899B5 /* PBXTargetDependency */,
 			);
 			name = ContactiMessage;
 			productName = ContactiMessage;
 			productReference = 0736E5E61FD827A6003899B5 /* ContactiMessage.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0736E6061FD835BB003899B5 /* MessagesViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0736E6171FD835BB003899B5 /* Build configuration list for PBXNativeTarget "MessagesViewController" */;
+			buildPhases = (
+				0736E6031FD835BB003899B5 /* Sources */,
+				0736E6041FD835BB003899B5 /* Frameworks */,
+				0736E6051FD835BB003899B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesViewController;
+			productName = MessagesViewController;
+			productReference = 0736E6071FD835BB003899B5 /* MessagesViewController.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +188,10 @@
 				ORGANIZATIONNAME = PAC;
 				TargetAttributes = {
 					0736E5E51FD827A6003899B5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					0736E6061FD835BB003899B5 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -114,6 +211,7 @@
 			projectRoot = "";
 			targets = (
 				0736E5E51FD827A6003899B5 /* ContactiMessage */,
+				0736E6061FD835BB003899B5 /* MessagesViewController */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +227,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0736E6051FD835BB003899B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0736E6121FD835BB003899B5 /* Assets.xcassets in Resources */,
+				0736E6101FD835BB003899B5 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -136,12 +243,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0736E5FE1FD828F8003899B5 /* ContactCell.swift in Sources */,
 				0736E5EC1FD827A6003899B5 /* ViewController.swift in Sources */,
+				0736E6001FD82AE7003899B5 /* Friend.swift in Sources */,
+				0736E5FC1FD82810003899B5 /* ContactsController.swift in Sources */,
 				0736E5EA1FD827A6003899B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0736E6031FD835BB003899B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0736E60D1FD835BB003899B5 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0736E6151FD835BB003899B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0736E6061FD835BB003899B5 /* MessagesViewController */;
+			targetProxy = 0736E6141FD835BB003899B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0736E5ED1FD827A6003899B5 /* Main.storyboard */ = {
@@ -158,6 +284,14 @@
 				0736E5F31FD827A6003899B5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0736E60E1FD835BB003899B5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0736E60F1FD835BB003899B5 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -273,6 +407,7 @@
 		0736E5F91FD827A6003899B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AHA5JS655T;
@@ -288,6 +423,7 @@
 		0736E5FA1FD827A6003899B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AHA5JS655T;
@@ -295,6 +431,38 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caesar.ContactiMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0736E6181FD835BB003899B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHA5JS655T;
+				INFOPLIST_FILE = MessagesViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caesar.ContactiMessage.MessagesViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0736E6191FD835BB003899B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHA5JS655T;
+				INFOPLIST_FILE = MessagesViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caesar.ContactiMessage.MessagesViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,6 +485,15 @@
 			buildConfigurations = (
 				0736E5F91FD827A6003899B5 /* Debug */,
 				0736E5FA1FD827A6003899B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0736E6171FD835BB003899B5 /* Build configuration list for PBXNativeTarget "MessagesViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0736E6181FD835BB003899B5 /* Debug */,
+				0736E6191FD835BB003899B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
